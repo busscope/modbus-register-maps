@@ -1,0 +1,13 @@
+Address,Register_Type,Data_Type,Byte_Order,Scale,Unit,Description
+0,Input Register,Float32,ABCD,1,V,Phase 1 line to neutral volts
+2,Input Register,Float32,ABCD,1,V,Phase 2 line to neutral volts
+4,Input Register,Float32,ABCD,1,V,Phase 3 line to neutral volts
+6,Input Register,Float32,ABCD,1,A,Phase 1 current
+8,Input Register,Float32,ABCD,1,A,Phase 2 current
+10,Input Register,Float32,ABCD,1,A,Phase 3 current
+12,Input Register,Float32,ABCD,1,W,Phase 1 active power
+14,Input Register,Float32,ABCD,1,W,Phase 2 active power
+16,Input Register,Float32,ABCD,1,W,Phase 3 active power
+52,Input Register,Float32,ABCD,1,W,Total system power
+70,Input Register,Float32,ABCD,1,Hz,Frequency of supply voltages
+342,Input Register,Float32,ABCD,1,kWh,Total active energy
